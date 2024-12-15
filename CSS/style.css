@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+  margin: 10px;
+ padding: 3px;
+}
+.block{
+    margin: 20px 0 50px 0px ;
+}
+nav{
+    display: flex;
+    width: 1080px;
+    background-color: black;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+}
+main{
+    width: 810px;
+    padding: 10px;
+}
+.right{
+    width: 300px;
+    margin-left: 10px;
+   padding: 15px;
+}
+.wrapper{
+    width: 1100px;
+    margin: 30px auto;
+  background-color: white;
+}
+footer{
+    padding: 30px;
+    margin: 20px;
+    background-color:rgb(55, 165, 55) ;
+    text-align: center;
+}
+nav a{
+    padding: 20px;
+    color: white;
+    font: 15px Arial;
+    margin: 10px;
+    margin-left: 30px;
+    margin: auto;
+    text-decoration: none;
+}
+nav a:hover, nav a:active{
+   background-color: rgb(55, 165, 55);
+   width: 100px;
+    text-decoration: underline;
+}
+img{
+    margin: 10px auto;
+    display: block;
+    height: 300px;
+    width: 1080px;
+}
+main p{
+    margin: 20px 0;
+    text-align: justify;
+    font: 15px Arial;
+}
+body{
+    background-color: rgba(163, 88, 53, 0.69);
+    font-family: "Poppins" sans-serif;
+}
+.d{
+    background-color: blanchedalmond;
+}
+.r{
+    background-color: blanchedalmond;
+}
+.g{
+    background-color: blanchedalmond;
+}
+h3{
+    background-color: rgba(56, 56, 176, 0.804);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.right ul{
+    color: rgb(55, 165, 55);
+    margin-right: 40px;
+    padding:  0px;
+    padding-left: 15px;
+}
+.right p{
+   margin-left: 15px;
+   margin-bottom: 15px;
+   line-height: 25px;
+}
+body h1{
+    color: white;
+    text-align: left;
+    margin-left: 1020px;
+  }
+  h2{
+color: rgba(163, 88, 53, 0.69);
+font-size: 40px;
+margin-bottom: 0px;
+margin-top: 0px;
+  }
+   main a{
+    color: rgb(55, 165, 55);
+    font-size: 18px;
+    text-decoration: none;
+  }
+  main p{
+    font-size: 18px;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  .right li{
+    list-style: none;
+    padding: 5px;
+    border:  1px solid rgb(230, 217, 184);
+  }
